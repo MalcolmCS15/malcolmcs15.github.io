@@ -2,7 +2,7 @@
 
 The source for my personal portfolio: an interactive, terminal-themed site covering my projects, experience, education, and more.
 
-### 🔗 Live site: **[malcolmcs15.github.io/Personal-Website](https://malcolmcs15.github.io/Personal-Website/)**
+### 🔗 Live site: **[malcolmcs15.github.io](https://malcolmcs15.github.io/)**
 
 ---
 
