@@ -1,0 +1,45 @@
+[
+  {
+    "title": "2x National Collegiate Rugby Academic All-American",
+    "date": "2026, 2025",
+    "org": "National Collegiate Rugby",
+    "kind": "honor",
+    "icon": "FaTrophy"
+  },
+  {
+    "title": "Summa Cum Laude",
+    "date": "2023",
+    "org": "Belmont Hill School",
+    "kind": "honor",
+    "icon": "FaMedal",
+    "iconColor": [
+      "orange.400",
+      "orange.300"
+    ]
+  },
+  {
+    "title": "AP Scholar with Distinction",
+    "date": "2023",
+    "org": "College Board",
+    "kind": "honor",
+    "icon": "FaMedal",
+    "iconColor": [
+      "orange.400",
+      "orange.300"
+    ]
+  },
+  {
+    "title": "Henry B. Sawyer Sportsmanship Award",
+    "date": "2023",
+    "org": "Belmont Hill School",
+    "kind": "honor",
+    "icon": "FaTrophy"
+  },
+  {
+    "title": "3x National Spanish Exam Gold Winner",
+    "date": "2023, 2022, 2021",
+    "org": "National Spanish Exam",
+    "kind": "competition",
+    "icon": "FaMedal"
+  }
+]

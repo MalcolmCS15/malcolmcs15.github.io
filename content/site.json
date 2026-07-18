@@ -1,0 +1,230 @@
+{
+  "_comment": "Your basic info. Edit the values below, then run: npm run dev",
+  "template": "terminal",
+  "components": {},
+  "sections": [
+    "hero",
+    "bio",
+    "featured",
+    "accomplishments",
+    "skills",
+    "contact",
+    "footer"
+  ],
+  "name": {
+    "full": "Malcolm Grant",
+    "first": "Malcolm",
+    "nickname": "Malcolm",
+    "last": "Grant",
+    "display": "Malcolm Grant",
+    "authorVariants": [
+      "Malcolm Grant"
+    ]
+  },
+  "title": "Hi, I'm Malcolm Grant",
+  "avatar": "malcolm.png",
+  "terminal": {
+    "username": "malcolm",
+    "rotatingSubtitles": [
+      "train RL agents to play games I like",
+      "lead Brown Men's Rugby",
+      "engineer experiments on the Kempner AI cluster",
+      "play chess, guitar, and piano",
+      "speak spanish",
+      "compete in athletics",
+      "hang out with my dogs",
+      "hang out with my dawgs (friends)"
+    ],
+    "rotatingOptions": [
+      "build transformers with TensorFlow",
+      "streamline project workflows",
+      "profile and speed up RL environments"
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      },
+      {
+        "name": "Git",
+        "icon": "FaGitAlt"
+      },
+      {
+        "name": "PyTorch",
+        "icon": "SiPytorch"
+      },
+      {
+        "name": "TensorFlow",
+        "icon": "SiTensorflow"
+      },
+      {
+        "name": "Keras",
+        "icon": "SiKeras"
+      },
+      {
+        "name": "OpenAI Gym",
+        "icon": "SiOpenaigym"
+      },
+      {
+        "name": "NumPy",
+        "icon": "SiNumpy"
+      },
+      {
+        "name": "Matplotlib",
+        "icon": "FaChartLine"
+      },
+      {
+        "name": "Weights & Biases",
+        "icon": "SiWeightsandbiases"
+      },
+      {
+        "name": "Prompt Engineering",
+        "icon": "FaBrain"
+      },
+      {
+        "name": "Token Management",
+        "icon": "FaCoins"
+      },
+      {
+        "name": "Agentic Systems",
+        "icon": "FaRobot"
+      },
+      {
+        "name": "Claude Code",
+        "icon": "SiAnthropic"
+      },
+      {
+        "name": "High Performance Computing",
+        "icon": "FaServer"
+      },
+      {
+        "name": "SLURM",
+        "icon": "FaNetworkWired"
+      },
+      {
+        "name": "Scikit-learn",
+        "icon": "SiScikitlearn"
+      },
+      {
+        "name": "OpenCV",
+        "icon": "SiOpencv"
+      },
+      {
+        "name": "Java",
+        "icon": "FaJava"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "SiTypescript"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "SiJavascript"
+      },
+      {
+        "name": "React",
+        "icon": "FaReact"
+      },
+      {
+        "name": "Vite",
+        "icon": "SiVite"
+      },
+      {
+        "name": "Clerk",
+        "icon": "SiClerk"
+      },
+      {
+        "name": "Design Fundamentals",
+        "icon": "FaPalette"
+      },
+      {
+        "name": "Project Management",
+        "icon": "FaProjectDiagram"
+      },
+      {
+        "name": "Communication",
+        "icon": "FaComments"
+      },
+      {
+        "name": "Teamwork",
+        "icon": "FaUsers"
+      },
+      {
+        "name": "Excel",
+        "icon": "FaFileExcel"
+      },
+      {
+        "name": "PowerPoint",
+        "icon": "FaFilePowerpoint"
+      },
+      {
+        "name": "Pandas",
+        "icon": "SiPandas"
+      },
+      {
+        "name": "CVXPY",
+        "icon": "FaCalculator"
+      },
+      {
+        "name": "Spanish",
+        "icon": "FaLanguage"
+      },
+      {
+        "name": "Guitar",
+        "icon": "FaGuitar"
+      }
+    ],
+    "timezone": "America/New_York"
+  },
+  "contact": {
+    "email": "malcolmgrant05@gmail.com",
+    "academicEmail": "malcolm_grant@brown.edu",
+    "location": "69 Brown St Box 6152, Providence, RI 02912",
+    "hiringEmail": "malcolmgrant05@gmail.com"
+  },
+  "social": {
+    "github": "https://github.com/MalcolmCS15",
+    "linkedin": "https://www.linkedin.com/in/malcolm-grant/",
+    "googleScholar": "",
+    "medium": "",
+    "twitter": "",
+    "youtube": "",
+    "bilibili": "",
+    "zhihu": "",
+    "csdn": "",
+    "blog": ""
+  },
+  "pets": [],
+  "features": {
+    "publications": false,
+    "projects": true,
+    "articles": false,
+    "experience": true,
+    "news": false,
+    "pets": false,
+    "guide": false
+  },
+  "heroSocialIcons": [
+    {
+      "platform": "github",
+      "icon": "FaGithub",
+      "label": "GitHub",
+      "color": "#333"
+    },
+    {
+      "platform": "email",
+      "icon": "FaEnvelope",
+      "label": "Email",
+      "color": "#fc5a03"
+    },
+    {
+      "platform": "linkedin",
+      "icon": "FaLinkedin",
+      "label": "LinkedIn",
+      "color": "#0a66c2"
+    }
+  ],
+  "selectedPublicationIds": [],
+  "tagline": "",
+  "featuredProjectTitle": "Run 3 Reinforcement Learning Agent"
+}

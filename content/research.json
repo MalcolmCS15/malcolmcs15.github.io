@@ -1,0 +1,18 @@
+{
+  "currentResearch": [
+    {
+      "lab": "Working as an AI/ML Research Engineer",
+      "emoji": "🧠",
+      "focus": "Kempner Institute at Harvard · Big Little Brain project",
+      "link": "https://kempnerinstitute.harvard.edu",
+      "institution": "Kempner Institute at Harvard University"
+    },
+    {
+      "lab": "Building an RL agent to play Clash Royale",
+      "emoji": "👑",
+      "focus": "Honors thesis · reinforcement learning",
+      "link": "",
+      "note": "Coming soon! (Thesis advised by Serena Booth)"
+    }
+  ]
+}

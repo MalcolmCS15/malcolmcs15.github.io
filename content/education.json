@@ -1,0 +1,70 @@
+{
+  "_comment": "SINGLE SOURCE for the Education section on the Bio page — edit an entry below to change a school's card. Per-entry fields: institution, course (the degree), year, details (lines shown under the school; each string is its own line, supports **bold**), tags (small pills), coursework (courses grouped by category, shown under the 'Show coursework' dropdown), bioOnly (true = hide from the home page). School logos live in content/logos.json, keyed by institution name. Work/research roles live in content/experience/*.md.",
+  "education": {
+    "courses": [
+      {
+        "course": "B.A. Computer Science & B.A. Biology",
+        "institution": "Brown University",
+        "year": "2023 – Expected May 2027",
+        "details": [
+          "Current Senior - GPA 4.0",
+          "President of Men's Rugby Team",
+          "Semester abroad in Spain with coursework in Spanish."
+        ],
+        "tags": ["Deep Learning", "Reinforcement Learning", "Biology", "Rugby", "Humanities"],
+        "coursework": [
+          {
+            "category": "CS & Life Sciences",
+            "courses": [
+              "Deep Learning",
+              "Foundations of AI",
+              "Program Design with Data Structures and Algorithms",
+              "Theory of Computation",
+              "Intro to Software Engineering",
+              "Intro to Object Oriented Programming",
+              "Statistical Inference",
+              "Linear Algebra",
+              "Biotechnology in Medicine",
+              "Physiology",
+              "Organic Chemistry",
+              "General Chemistry",
+              "Ecology and Evolution of Infectious Disease",
+              "Diversity of Life"
+            ]
+          },
+          {
+            "category": "Humanities",
+            "courses": [
+              "History of American Intervention",
+              "Reading the Short Story",
+              "Meditation, Mindfulness and Health",
+              "Intro to Human Development and Education",
+              "Money and Power in the Political Economy",
+              "Advanced Spanish II",
+              "Lyric Poetry",
+              "Principles of Economics"
+            ]
+          }
+        ]
+      },
+      {
+        "course": "High School Diploma, Summa Cum Laude",
+        "institution": "Belmont Hill School",
+        "year": "2019 – 2023",
+        "details": [
+          "Graduated with a 4.43 weighted GPA.",
+          "3x National Spanish Exam Gold Winner. President and Founder of the Chess club. Varsity Soccer, Varsity Wrestling."
+        ],
+        "tags": ["Academics", "Athletics"]
+      },
+      {
+        "course": "K-8",
+        "institution": "Pierce School",
+        "year": "2010 - 2019",
+        "bioOnly": true
+      }
+    ]
+  },
+  "reviewing": [],
+  "timeline": []
+}
