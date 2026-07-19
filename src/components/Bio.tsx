@@ -115,6 +115,24 @@ const Bio: React.FC = () => {
       <Container maxW={["full", "full", "7xl"]} px={[2, 4, 8]}>
         <VStack align="stretch" spacing={[8, 10]}>
 
+          {/* Full about.md body */}
+          <Box>
+            {sectionHeader(t('bio.about', 'About Me'))}
+            <Box
+              dangerouslySetInnerHTML={{ __html: about.bodyHtml ?? '' }}
+              sx={{
+                'h2': { fontSize: 'md', fontWeight: 'semibold', color: headingColor, mt: 6, mb: 2, fontFamily: 'mono' },
+                'h2:first-of-type': { mt: 0 },
+                'h3': { fontSize: 'sm', fontWeight: 'semibold', color: headingColor, mt: 4, mb: 2 },
+                'p': { fontSize: 'sm', lineHeight: 'tall', color: textColor, mb: 3 },
+                'ul, ol': { pl: 5, mb: 3 },
+                'li': { fontSize: 'sm', lineHeight: 'tall', color: textColor, mb: 1 },
+                'strong': { color: headingColor },
+                'a': { color: 'var(--accent-color)' },
+              }}
+            />
+          </Box>
+
           {/* Education, in depth */}
           <Box id="education" scrollMarginTop="80px">
             {sectionHeader(t('bio.education', 'Education'))}
@@ -163,24 +181,6 @@ const Bio: React.FC = () => {
                 )
               })}
             </VStack>
-          </Box>
-
-          {/* Full about.md body */}
-          <Box>
-            {sectionHeader(t('bio.about', 'About Me'))}
-            <Box
-              dangerouslySetInnerHTML={{ __html: about.bodyHtml ?? '' }}
-              sx={{
-                'h2': { fontSize: 'md', fontWeight: 'semibold', color: headingColor, mt: 6, mb: 2, fontFamily: 'mono' },
-                'h2:first-of-type': { mt: 0 },
-                'h3': { fontSize: 'sm', fontWeight: 'semibold', color: headingColor, mt: 4, mb: 2 },
-                'p': { fontSize: 'sm', lineHeight: 'tall', color: textColor, mb: 3 },
-                'ul, ol': { pl: 5, mb: 3 },
-                'li': { fontSize: 'sm', lineHeight: 'tall', color: textColor, mb: 1 },
-                'strong': { color: headingColor },
-                'a': { color: 'var(--accent-color)' },
-              }}
-            />
           </Box>
 
           {/* Athletic history */}
