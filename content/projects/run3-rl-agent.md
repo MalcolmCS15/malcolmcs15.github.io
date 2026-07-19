@@ -24,7 +24,7 @@ Created the first-ever agent trained with reinforcement learning to successfully
 ## Highlights
 
 - Applied DL/RL theory to tackle a novel problem e2e, finding practical solutions to real-world complications as they arose
-- Configured the environmnet to allow the agent to interface with the keyboard and play the game live, enabling real-time model optimization
+- Configured the environment to allow the agent to interface with the keyboard and play the game live, enabling real-time model optimization
 - Trained the agent with a CNN/PPO framework, tracking metrics like episode length and value loss with Weights & Biases
 - Achieved an impressive 45 seconds of non-stop autonomous 3D parkour after only ~20 hours of live training
 - Visualized the policy's attention with per-frame GradCAM overlays on live gameplay

@@ -15,4 +15,4 @@ Built a website in JavaScript and React for users to select preloaded JSON files
 
 ## Highlights
 - Included a login feature with Clerk
-- Tested the verified functionality with Playwright Codegen
+- Verified functionality throughout development with Playwright Codegen

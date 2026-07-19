@@ -24,7 +24,7 @@ athletics:
     emoji: "🤼"
     logo: /images/logos/belmont-hill.png
     org: Belmont Hill Varsity Wrestling
-    description: 2023 ISL Dual Meet and ISL Graves Kelsey Champions. Undefeated in starting matches
+    description: 2023 ISL Dual Meet and ISL Graves Kelsey Champions. Undefeated in starting matches.
   - sport: For Fun
     emoji: "🥏"
     description: Tennis, climbing, and frisbee golf!
@@ -42,7 +42,7 @@ journeyPhases:
   - period: 2023 – Present
     title: B.A. Computer Science & B.A. Biology
     org: Brown University
-    description: "Current Senior - GPA 4.0\nPresident of Men's Rugby Team\nSemester abroad in Spain with coursework in spanish."
+    description: "Current Senior - GPA 4.0\nPresident of Men's Rugby Team\nSemester abroad in Spain with coursework in Spanish."
     tags:
       - Deep Learning
       - Reinforcement Learning
