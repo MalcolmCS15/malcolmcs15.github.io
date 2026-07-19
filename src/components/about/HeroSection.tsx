@@ -41,7 +41,7 @@ const HeroSection = ({ title, avatar, research = [], researchLogos = {}, educati
   const { t } = useTranslation()
   const { siteOwner, siteConfig } = useLocalizedData()
   const headingColor = useColorModeValue('gray.800', 'white')
-  const textColor = useColorModeValue('gray.600', 'gray.400')
+  const textColor = useColorModeValue('gray.700', 'gray.400')
   const bg = useColorModeValue('gray.50', 'gray.900')
   const accentBg = useColorModeValue('blue.50', 'blue.900')
   const hoverBg = useColorModeValue('gray.100', 'gray.700')
@@ -180,7 +180,7 @@ const HeroSection = ({ title, avatar, research = [], researchLogos = {}, educati
               w="full"
             >
               <Text color="yellow.400" fontSize={["xs", "sm"]}>$</Text>
-              <Text fontSize={["xs", "sm"]} color={useColorModeValue('gray.600', 'gray.400')}>{t('hero.sometimesI')}</Text>
+              <Text fontSize={["xs", "sm"]} color={useColorModeValue('gray.700', 'gray.400')}>{t('hero.sometimesI')}</Text>
               <Box h={["18px", "20px", "24px"]} overflow="hidden">
                 <MotionBox
                   animate={{ y: subtitleFrames }}

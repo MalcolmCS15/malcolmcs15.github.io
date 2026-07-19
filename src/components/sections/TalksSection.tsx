@@ -18,7 +18,7 @@ const TalksSection: React.FC = () => {
   const { t } = useTranslation()
   const { talks } = useLocalizedData()
   const borderColor = useColorModeValue('gray.100', 'gray.800')
-  const textColor = useColorModeValue('gray.500', 'gray.400')
+  const textColor = useColorModeValue('gray.600', 'gray.400')
   const titleColor = useColorModeValue('gray.800', 'gray.100')
   const mutedColor = useColorModeValue('gray.400', 'gray.500')
 

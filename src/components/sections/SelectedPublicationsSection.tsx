@@ -13,7 +13,7 @@ const PubLink = ({ href, icon, label }: { href: string; icon: string; label: str
     <HStack
       spacing={1.5} px={2.5} py={1} borderRadius="sm" border="1px solid"
       borderColor={useColorModeValue('gray.200', 'gray.600')}
-      color={useColorModeValue('gray.600', 'gray.400')}
+      color={useColorModeValue('gray.700', 'gray.400')}
       fontSize="xs" fontFamily="mono" transition="all 0.15s"
       _hover={{ borderColor: 'cyan.400', color: 'cyan.400', bg: useColorModeValue('gray.50', 'whiteAlpha.50') }}
     >
@@ -51,7 +51,7 @@ const PublicationCard = ({ pub }: { pub: any }) => {
           </HStack>
           <Heading size="sm" lineHeight="tall" fontWeight="semibold" color={useColorModeValue('gray.800', 'gray.100')}>{pub.title}</Heading>
           <VStack align="start" spacing={1.5} w="full">
-            <Text fontSize="xs" color={useColorModeValue('gray.500', 'gray.400')} lineHeight="base" noOfLines={2}>
+            <Text fontSize="xs" color={useColorModeValue('gray.600', 'gray.400')} lineHeight="base" noOfLines={2}>
               {pub.authors.map((author: string, idx: number) => {
                 const isHighlighted = pub.isCoFirst && pub.coFirstAuthors?.includes(author)
                 return (
@@ -66,7 +66,7 @@ const PublicationCard = ({ pub }: { pub: any }) => {
                 {pub.specialBadges.map((badge: string) => (
                   <Text key={badge} fontSize="2xs" fontFamily="mono" px={2} py={0.5} borderRadius="sm" border="1px solid"
                     borderColor={badge === 'First Author' || badge === 'Co-First' ? useColorModeValue('cyan.200', 'cyan.700') : badge === 'Oral' || badge === 'Spotlight' || badge === 'Best Paper' ? useColorModeValue('orange.200', 'orange.700') : useColorModeValue('gray.200', 'gray.600')}
-                    color={badge === 'First Author' || badge === 'Co-First' ? useColorModeValue('cyan.600', 'cyan.300') : badge === 'Oral' || badge === 'Spotlight' || badge === 'Best Paper' ? useColorModeValue('orange.600', 'orange.300') : useColorModeValue('gray.500', 'gray.400')}
+                    color={badge === 'First Author' || badge === 'Co-First' ? useColorModeValue('cyan.600', 'cyan.300') : badge === 'Oral' || badge === 'Spotlight' || badge === 'Best Paper' ? useColorModeValue('orange.600', 'orange.300') : useColorModeValue('gray.600', 'gray.400')}
                     bg={badge === 'First Author' || badge === 'Co-First' ? useColorModeValue('cyan.50', 'whiteAlpha.50') : badge === 'Oral' || badge === 'Spotlight' || badge === 'Best Paper' ? useColorModeValue('orange.50', 'whiteAlpha.50') : 'transparent'}
                   >{badge}</Text>
                 ))}
@@ -85,7 +85,7 @@ const PublicationCard = ({ pub }: { pub: any }) => {
             {pub.abstract && (
               <HStack as="button" spacing={1.5} px={2.5} py={1} borderRadius="sm" border="1px solid"
                 borderColor={isAbstractOpen ? useColorModeValue('cyan.300', 'cyan.600') : borderColor}
-                color={isAbstractOpen ? 'cyan.400' : useColorModeValue('gray.600', 'gray.400')}
+                color={isAbstractOpen ? 'cyan.400' : useColorModeValue('gray.700', 'gray.400')}
                 fontSize="xs" fontFamily="mono" transition="all 0.15s" _hover={{ borderColor: 'cyan.400', color: 'cyan.400' }}
                 onClick={onToggleAbstract}
               >
@@ -99,11 +99,11 @@ const PublicationCard = ({ pub }: { pub: any }) => {
       {pub.abstract && (
         <Collapse in={isAbstractOpen} animateOpacity>
           <Box mt={4} p={4} bg={useColorModeValue('gray.50', 'gray.900')} borderRadius="md" borderLeft="2px solid" borderLeftColor="cyan.400">
-            <Text fontSize={["xs", "sm"]} lineHeight="tall" color={useColorModeValue('gray.600', 'gray.400')}>{pub.abstract}</Text>
+            <Text fontSize={["xs", "sm"]} lineHeight="tall" color={useColorModeValue('gray.700', 'gray.400')}>{pub.abstract}</Text>
             {pub.keywords && (
               <HStack mt={3} spacing={1.5} flexWrap="wrap">
                 {pub.keywords.map((keyword: string) => (
-                  <Text key={keyword} fontSize="2xs" fontFamily="mono" color={useColorModeValue('gray.500', 'gray.500')} px={1.5} py={0.5} bg={useColorModeValue('gray.100', 'gray.800')} borderRadius="sm">{keyword}</Text>
+                  <Text key={keyword} fontSize="2xs" fontFamily="mono" color={useColorModeValue('gray.600', 'gray.500')} px={1.5} py={0.5} bg={useColorModeValue('gray.100', 'gray.800')} borderRadius="sm">{keyword}</Text>
                 ))}
               </HStack>
             )}
@@ -148,7 +148,7 @@ const SelectedPublicationsSection: React.FC = () => {
           ))}
           <Box textAlign="center" pt={2}>
             <Link href="/publications" _hover={{ textDecoration: 'none' }}>
-              <HStack spacing={2} justify="center" color={useColorModeValue('gray.500', 'gray.400')} fontSize="sm" fontFamily="mono" transition="all 0.15s" _hover={{ color: 'cyan.400' }}>
+              <HStack spacing={2} justify="center" color={useColorModeValue('gray.600', 'gray.400')} fontSize="sm" fontFamily="mono" transition="all 0.15s" _hover={{ color: 'cyan.400' }}>
                 <Text>{t('about.viewAllPublications')}</Text>
                 <Text>→</Text>
               </HStack>

@@ -110,7 +110,7 @@ const NewsCard: React.FC<NewsCardProps> = ({ news }) => {
         {/* Description text */}
         <Text 
           fontSize="sm" 
-          color={useColorModeValue('gray.600', 'gray.400')}
+          color={useColorModeValue('gray.700', 'gray.400')}
           mb={3}
           lineHeight="taller"
         >

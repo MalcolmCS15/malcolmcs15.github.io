@@ -30,8 +30,8 @@ export const terminalPalette = {
     error:     dk ? '#bf616a' : '#b91c1c',
     success:   dk ? '#a3be8c' : '#34744e',
     warning:   dk ? '#d08770' : '#b35a2e',
-    secondary: dk ? '#9099ab' : '#556582',
-    muted:     dk ? '#627089' : '#9bb0ca',
+    secondary: dk ? '#9099ab' : '#4a5568',
+    muted:     dk ? '#627089' : '#718096',
     /** Touch bar background */
     touchBar:  dk ? '#252b35' : '#e2e6ee',
     /** Tab bar background */

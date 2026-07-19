@@ -106,7 +106,7 @@ const AwardRow = ({ award }: { award: Award }) => {
                 Easter Egg
               </Text>
             </HStack>
-            <Text fontSize="xs" color={useColorModeValue('gray.600', 'gray.300')} lineHeight="tall">
+            <Text fontSize="xs" color={useColorModeValue('gray.700', 'gray.300')} lineHeight="tall">
               {award.egg}
             </Text>
           </PopoverBody>

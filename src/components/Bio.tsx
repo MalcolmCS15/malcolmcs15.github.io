@@ -84,8 +84,8 @@ const Bio: React.FC = () => {
   const { about, experience, institutionLogos } = useLocalizedData()
 
   const headingColor = useColorModeValue('gray.800', 'white')
-  const textColor = useColorModeValue('gray.600', 'gray.400')
-  const mutedColor = useColorModeValue('gray.500', 'gray.500')
+  const textColor = useColorModeValue('gray.700', 'gray.400')
+  const mutedColor = useColorModeValue('gray.600', 'gray.500')
   const cardBg = useColorModeValue('white', 'gray.800')
   const borderColor = useColorModeValue('gray.200', 'gray.700')
   const emojiBg = useColorModeValue('gray.100', 'gray.700')

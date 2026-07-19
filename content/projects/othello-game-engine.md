@@ -11,7 +11,6 @@ tags:
 role: independent
 ---
 
-Built a playable Othello game and AI engine from scratch in Java, featuring a minimax opponent with three levels of difficulty.
 
 ## Highlights
 - Built a playable Othello game from scratch in Java, which highlighted available moves and automatically decided the winner

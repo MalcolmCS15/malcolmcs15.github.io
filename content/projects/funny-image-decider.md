@@ -13,7 +13,7 @@ tags:
 role: independent
 ---
 
-A binary image classifier that predicts whether an image is "funny or not funny," trained on Kreiman Lab's HumorDB dataset to grade my own cartoon.
+Trained a binary image classifier that predicts whether an image is "funny or not funny" to grade my own cartoon, using Kreiman Lab's HumorDB dataset
 
 ## Highlights
 - Built and compared two approaches: a CNN trained from scratch vs transfer learning with pretrained backbones (MobileNetV2, EfficientNetB0) with configurable layer freezing

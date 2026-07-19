@@ -7,7 +7,7 @@ import CopyEmail from '../CopyEmail'
 const ContactSection: React.FC = () => {
   const { t } = useTranslation()
   const { siteOwner } = useLocalizedData()
-  const textColor = useColorModeValue('gray.600', 'gray.400')
+  const textColor = useColorModeValue('gray.700', 'gray.400')
   const linkColor = useColorModeValue('gray.700', 'gray.200')
 
   const items = [

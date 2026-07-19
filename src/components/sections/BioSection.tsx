@@ -5,7 +5,7 @@ import { useLocalizedData } from '@/hooks/useLocalizedData'
 const BioSection: React.FC = () => {
   const { t } = useTranslation()
   const { about } = useLocalizedData()
-  const textColor = useColorModeValue('gray.600', 'gray.400')
+  const textColor = useColorModeValue('gray.700', 'gray.400')
 
   if (!about.journey) return null
 

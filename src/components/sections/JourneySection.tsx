@@ -24,7 +24,7 @@ const renderMultiline = (text: string, color: string, boldColor: string) =>
 const JourneySection: React.FC = () => {
   const { t } = useTranslation()
   const { about } = useLocalizedData()
-  const textColor = useColorModeValue('gray.500', 'gray.400')
+  const textColor = useColorModeValue('gray.600', 'gray.400')
   const boldColor = useColorModeValue('gray.700', 'gray.200')
   const headingColor = useColorModeValue('gray.800', 'gray.100')
   const lineColor = useColorModeValue('gray.200', 'gray.700')

@@ -11,7 +11,7 @@ const SkillsSection: React.FC = () => {
   const skills = (siteOwner.skills ?? []) as SkillItem[]
   const tagBg = useColorModeValue('gray.100', 'gray.800')
   const tagColor = useColorModeValue('gray.700', 'gray.300')
-  const iconColor = useColorModeValue('gray.500', 'gray.400')
+  const iconColor = useColorModeValue('gray.600', 'gray.400')
 
   if (skills.length === 0) return null
 

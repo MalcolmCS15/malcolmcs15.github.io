@@ -93,6 +93,8 @@ const FlowNode: React.FC<{
   if (item.link?.trim()) res.push({ label: t('projects.source'), url: item.link.trim() })
   item.extraLinks?.forEach(l => { if (!res.some(r => r.url === l.url)) res.push(l) })
   const hasExpandable = !!item.story
+  // Summary shown as the first bullet, followed by the highlights
+  const bullets = [item.summary, ...(item.highlights ?? [])].filter(Boolean) as string[]
 
   return (
     <Flex gap={[3, 3, 4]} align="start" py={3} position="relative">
@@ -202,15 +204,10 @@ const FlowNode: React.FC<{
           )}
 
           <VStack align="start" spacing={2.5} flex={1} minW={0} justify="center">
-            {/* Summary */}
-            <Text fontSize="xs" lineHeight="tall" color={termSecondary}>
-              {highlightData(item.summary, hlc)}
-            </Text>
-
-            {/* Highlights as resume-style bullets */}
-            {item.highlights && item.highlights.length > 0 && (
+            {/* Description bullets — summary is the first bullet */}
+            {bullets.length > 0 && (
               <Box>
-                {item.highlights.map((h, i) => (
+                {bullets.map((h, i) => (
                   <Text key={i} fontSize="xs" color={termSecondary} lineHeight="1.8">
                     <Text as="span" color={ct.color} mr={1.5}>▸</Text>{highlightData(h, hlc)}
                   </Text>

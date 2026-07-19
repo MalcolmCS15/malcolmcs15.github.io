@@ -24,7 +24,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   const { isOpen, onToggle } = useDisclosure()
   const cardBg = useColorModeValue('white', 'gray.800')
   const chipBg = useColorModeValue('gray.50', 'gray.900')
-  const textColor = useColorModeValue('gray.600', 'gray.400')
+  const textColor = useColorModeValue('gray.700', 'gray.400')
 
   const { title, summary, tags = [], link, extraLinks, highlights, category, date } = project
 

@@ -14,7 +14,7 @@ interface EducationSectionProps {
 }
 
 const EducationSection: React.FC<EducationSectionProps> = ({ courses, logos = {} }) => {
-  const textColor = useColorModeValue('gray.600', 'gray.400')
+  const textColor = useColorModeValue('gray.700', 'gray.400')
   const bg = useColorModeValue('white', 'gray.800')
   const accentBg = useColorModeValue('blue.50', 'blue.900')
 

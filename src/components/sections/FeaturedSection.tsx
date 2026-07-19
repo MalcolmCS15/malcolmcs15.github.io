@@ -18,7 +18,7 @@ const FeaturedSection: React.FC = () => {
   const isDark = colorMode === 'dark'
 
   const headingColor = useColorModeValue('gray.800', 'white')
-  const textColor = useColorModeValue('gray.600', 'gray.400')
+  const textColor = useColorModeValue('gray.700', 'gray.400')
   const cardBg = useColorModeValue('white', 'gray.800')
   const borderColor = useColorModeValue('gray.200', 'gray.700')
   const tagBg = useColorModeValue('gray.100', 'gray.700')

@@ -15,7 +15,6 @@ featured: true
 role: independent
 ---
 
-Built and compared language models across three architectures, trained on a mystery novel dataset.
 
 ## Highlights
 - Implemented language models with Transformer (multi-headed attention), LSTM, and RNN architectures in TensorFlow

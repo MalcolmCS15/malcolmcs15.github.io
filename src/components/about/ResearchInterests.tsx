@@ -9,7 +9,7 @@ interface ResearchInterestsProps {
 }
 
 const ResearchInterests: React.FC<ResearchInterestsProps> = ({ interests }) => {
-  const textColor = useColorModeValue('gray.600', 'gray.400')
+  const textColor = useColorModeValue('gray.700', 'gray.400')
   const bg = useColorModeValue('white', 'gray.800')
 
   return (

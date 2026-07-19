@@ -646,9 +646,9 @@ const GuideDocs: React.FC = () => {
   const tc = terminalPalette.colors(isDark)
   const cardBg = useColorModeValue('white', 'gray.800')
   const borderColor = useColorModeValue('gray.200', 'gray.700')
-  const subtitleColor = useColorModeValue('gray.500', 'gray.400')
+  const subtitleColor = useColorModeValue('gray.600', 'gray.400')
   const pageBg = useColorModeValue('gray.50', 'gray.900')
-  const mutedText = useColorModeValue('gray.600', 'gray.300')
+  const mutedText = useColorModeValue('gray.700', 'gray.300')
   const headingColor = useColorModeValue('gray.800', 'gray.50')
 
   /* Scroll to hash section on mount (from landing page links) */

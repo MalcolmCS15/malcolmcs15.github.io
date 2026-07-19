@@ -54,7 +54,7 @@ const StepCard: React.FC<{
         <Text fontWeight="bold" fontSize="sm" color={useColorModeValue('gray.800', 'gray.100')} mb={1}>
           {title}
         </Text>
-        <Text fontSize="xs" color={useColorModeValue('gray.500', 'gray.400')} lineHeight="1.7">
+        <Text fontSize="xs" color={useColorModeValue('gray.600', 'gray.400')} lineHeight="1.7">
           {desc}
         </Text>
       </Box>
@@ -105,7 +105,7 @@ const FeatureCard: React.FC<{
         <Text fontWeight="semibold" fontSize="sm" color={useColorModeValue('gray.800', 'gray.100')} mb={0.5}>
           {title}
         </Text>
-        <Text fontSize="xs" color={useColorModeValue('gray.500', 'gray.400')} lineHeight="1.6">
+        <Text fontSize="xs" color={useColorModeValue('gray.600', 'gray.400')} lineHeight="1.6">
           {desc}
         </Text>
       </Box>
@@ -155,7 +155,7 @@ const SectionHead: React.FC<{ label: string; title: string; desc?: string; color
       {title}
     </Heading>
     {desc && (
-      <Text fontSize="sm" color={useColorModeValue('gray.500', 'gray.400')} maxW="500px">
+      <Text fontSize="sm" color={useColorModeValue('gray.600', 'gray.400')} maxW="500px">
         {desc}
       </Text>
     )}
@@ -183,7 +183,7 @@ const GuideLanding: React.FC = () => {
   const borderColor = useColorModeValue('gray.200', 'gray.700')
   const pageBg = useColorModeValue('gray.50', 'gray.900')
   const cardBg = useColorModeValue('white', 'gray.800')
-  const subtitleColor = useColorModeValue('gray.500', 'gray.400')
+  const subtitleColor = useColorModeValue('gray.600', 'gray.400')
 
   return (
     <Box w="full" minH="100vh" bg={pageBg}>
@@ -596,7 +596,7 @@ const GuideLanding: React.FC = () => {
           >
             <HStack spacing={2}>
               <Text fontSize="xs" color="#88c0d0" fontWeight="bold" fontFamily="mono" flexShrink={0}>MCP</Text>
-              <Text fontSize="xs" color={useColorModeValue('gray.600', 'gray.300')} lineHeight="1.7">
+              <Text fontSize="xs" color={useColorModeValue('gray.700', 'gray.300')} lineHeight="1.7">
                 Setup: <Text as="span" fontFamily="mono" color={tc.command}>cd mcp-server && npm install</Text> — then configure Claude Desktop or Code.
               </Text>
             </HStack>
@@ -682,7 +682,7 @@ const GuideLanding: React.FC = () => {
             gap={3}
           >
             <Text fontSize="xs" color={tc.success} fontWeight="bold" fontFamily="mono" flexShrink={0}>REQ</Text>
-            <Text fontSize="xs" color={useColorModeValue('gray.600', 'gray.300')} lineHeight="1.7">
+            <Text fontSize="xs" color={useColorModeValue('gray.700', 'gray.300')} lineHeight="1.7">
               <Text as="span" fontWeight="bold">Node.js v18+</Text>
               {' '}— download from nodejs.org (choose LTS). That's it!
             </Text>
@@ -702,7 +702,7 @@ const GuideLanding: React.FC = () => {
           >
             <HStack spacing={2} flex={1}>
               <Text fontSize="xs" color={tc.command} fontWeight="bold" fontFamily="mono" flexShrink={0}>TIP</Text>
-              <Text fontSize="xs" color={useColorModeValue('gray.600', 'gray.300')} lineHeight="1.7">
+              <Text fontSize="xs" color={useColorModeValue('gray.700', 'gray.300')} lineHeight="1.7">
                 <Text as="span" fontWeight="bold">Don&apos;t want to set up a dev environment?</Text>
                 {' '}We also offer a hosted solution — just upload your resume and get a live portfolio. No Git, no terminal, no coding required.
               </Text>
@@ -1172,7 +1172,7 @@ const GuideLanding: React.FC = () => {
           align="center"
           gap={3}
         >
-          <Text fontSize="sm" color={useColorModeValue('gray.600', 'gray.300')} textAlign="center" lineHeight="1.7">
+          <Text fontSize="sm" color={useColorModeValue('gray.700', 'gray.300')} textAlign="center" lineHeight="1.7">
             <Text as="span" fontWeight="bold" color={tc.command}>Don&apos;t want to touch code?</Text>
             {' '}We also offer a hosted solution — upload your resume, and we build your portfolio for you. No Git, no terminal, no setup.
           </Text>
@@ -1210,7 +1210,7 @@ const GuideLanding: React.FC = () => {
 const HideGuideHint: React.FC = () => {
   const [open, setOpen] = React.useState(false)
   const { isDark, tc } = useTC()
-  const subtitleColor = useColorModeValue('gray.500', 'gray.400')
+  const subtitleColor = useColorModeValue('gray.600', 'gray.400')
 
   return (
     <VStack spacing={0} mt={8}>

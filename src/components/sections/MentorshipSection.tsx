@@ -3,7 +3,7 @@ import { useLocalizedData } from '@/hooks/useLocalizedData'
 
 const MentorshipSection: React.FC = () => {
   const { about } = useLocalizedData()
-  const textColor = useColorModeValue('gray.500', 'gray.400')
+  const textColor = useColorModeValue('gray.600', 'gray.400')
   const nameColor = useColorModeValue('gray.700', 'gray.200')
   const lineColor = useColorModeValue('gray.200', 'gray.700')
   const borderColor = useColorModeValue('gray.100', 'gray.800')

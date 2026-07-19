@@ -5,7 +5,7 @@ import { useLocalizedData } from '@/hooks/useLocalizedData'
 const Footer: React.FC = () => {
   const { siteOwner } = useLocalizedData()
   const footerBg = useColorModeValue('gray.50', 'gray.900')
-  const textColor = useColorModeValue('gray.600', 'gray.400')
+  const textColor = useColorModeValue('gray.700', 'gray.400')
 
   return (
     <Box
